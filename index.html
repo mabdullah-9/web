@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinterest Pin Detail - Insightlancer & Rennale Renuelly</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts & FontAwesome Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- LEFT SIDEBAR -->
+    <aside class="sidebar">
+        <div class="sidebar-top">
+            <a href="#" class="icon-btn logo-btn"><i class="fab fa-pinterest"></i></a>
+            <a href="#" class="icon-btn active"><i class="fas fa-home"></i></a>
+            <a href="#" class="icon-btn"><i class="fas fa-compass"></i></a>
+            <a href="#" class="icon-btn"><i class="fas fa-plus"></i></a>
+            <a href="#" class="icon-btn"><i class="fas fa-bell"></i></a>
+            <a href="#" class="icon-btn"><i class="fas fa-comment-dots"></i></a>
+        </div>
+        <div class="sidebar-bottom">
+            <a href="#" class="icon-btn"><i class="fas fa-sliders-h"></i></a>
+            <a href="#" class="icon-btn"><i class="fas fa-cog"></i></a>
+        </div>
+    </aside>
+
+    <!-- MAIN APP WRAPPER -->
+    <div class="main-wrapper">
+        
+        <!-- TOP SEARCH BAR -->
+        <header class="top-navbar">
+            <div class="search-container">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-right-icons">
+                <i class="fas fa-bell"></i>
+                <i class="fas fa-comment-dots"></i>
+                <div class="nav-profile">M</div>
+                <i class="fas fa-chevron-down" style="font-size: 10px; color: #767676;"></i>
+            </div>
+        </header>
+
+        <!-- PIN DETAIL CONTAINER -->
+        <main class="pin-detail-container">
+            <div class="pin-modal-card">
+                
+                <!-- LEFT SIDE: INSIGHTLANCER PORTFOLIO PIN -->
+                <div class="pin-media-side">
+                    
+                    <!-- TOP ACTION BUTTONS BAR (Like, Comments, Share, More, Save) -->
+                    <div class="pin-top-actions">
+                        <div class="left-action-group">
+                            <button class="action-icon-btn"><i class="far fa-heart"></i> 1.9k</button>
+                            <button class="action-icon-btn"><i class="far fa-comment"></i> 42</button>
+                            <button class="action-icon-btn"><i class="fas fa-arrow-up-from-bracket"></i></button>
+                            <button class="action-icon-btn"><i class="fas fa-ellipsis-h"></i></button>
+                        </div>
+                        <button class="save-red-btn" id="saveBtn">Save</button>
+                    </div>
+
+                    <!-- WORKING VIDEO PREVIEW -->
+                    <div class="video-box-wrapper">
+                        <video autoplay loop muted playsinline>
+                            <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                    <!-- FIGMA DESIGN PREVIEW -->
+                    <div class="figma-mini-preview">
+                        <div class="artboard-header">
+                            <div class="brand-logo">insightlancer<span>.</span></div>
+                        </div>
+                        <div class="journey-section-mini">
+                            <h3>My academic and professional journey</h3>
+                            <div class="underline"></div>
+                            <div class="journey-mini-grid">
+                                <div class="mini-box">
+                                    <div class="yellow-icon"><i class="fas fa-graduation-cap"></i></div>
+                                    <div>
+                                        <h4>Education</h4>
+                                        <p>B.Sc. Computer Science</p>
+                                    </div>
+                                </div>
+                                <div class="mini-box">
+                                    <div class="yellow-icon"><i class="fas fa-briefcase"></i></div>
+                                    <div>
+                                        <h4>Experience</h4>
+                                        <p>Lead UI/UX Designer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CREATOR PROFILE & DETAILS -->
+                    <div class="creator-profile-row">
+                        <div class="creator-avatar">i</div>
+                        <div class="creator-meta">
+                            <h4>insightlancer</h4>
+                            <p>15.2k followers</p>
+                        </div>
+                        <button class="follow-btn">Follow</button>
+                    </div>
+
+                    <div class="pin-text-content">
+                        <h1>Personal Portfolio Website Figma UIUX Design | Web Design | UI Design | UX Design</h1>
+                        <p class="section-label">Description</p>
+                        <p class="desc-text">Personal Portfolio Website Figma UI/UX Design | Web Design | UI Design | UX Design with clean aesthetic layout.</p>
+                    </div>
+
+                </div>
+
+                <!-- RIGHT SIDE: RENNALE RENUELLY NATURE CARD (Exact Match) -->
+                <div class="pin-right-recommendations">
+                    <h3>More like this</h3>
+                    
+                    <div class="nature-card-preview">
+                        <div class="nature-hero">
+                            <div class="nature-hero-content">
+                                <h2>Rennale<br>Renuelly</h2>
+                                <p>Organic natural layout for ecological interfaces.</p>
+                                <button class="nature-btn">View Page</button>
+                            </div>
+                        </div>
+
+                        <div class="nature-features-bar">
+                            <div class="feature-item"><i class="fas fa-bullseye"></i><span>Vision</span></div>
+                            <div class="feature-item"><i class="fas fa-cube"></i><span>Structure</span></div>
+                            <div class="feature-item"><i class="fas fa-paint-brush"></i><span>Elements</span></div>
+                            <div class="feature-item"><i class="fas fa-leaf"></i><span>Ecology</span></div>
+                        </div>
+
+                        <div class="nature-grid">
+                            <div class="n-box box-green"><i class="fas fa-sun"></i><span>Sun Light</span></div>
+                            <div class="n-box box-brown-dark"><i class="fas fa-seedling"></i><span>Soil Base</span></div>
+                            <div class="n-box box-brown-light"><i class="fas fa-tree"></i><span>Wood Craft</span></div>
+                            <div class="n-box box-forest"><span>Forest Path</span></div>
+                            <div class="n-box box-dark"><i class="fas fa-spa"></i><span>Organic</span></div>
+                            <div class="n-box box-tan"><i class="fas fa-bars"></i><span>Structure</span></div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
